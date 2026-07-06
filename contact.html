@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Schedule Inspection | Summit Ridge Roofing</title>
+<meta name="description" content="Contact Summit Ridge Roofing or schedule a free roof inspection in Indianapolis, IN.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M20 4L36 16V36H24V24H16V36H4V16L20 4Z" fill="#16324F"/>
+        <path d="M20 4L36 16H4L20 4Z" fill="#E85D2C"/>
+      </svg>
+      <span>Summit Ridge<br><small>Roofing Co.</small></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="storm-damage.html">Storm Damage</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="contact.html#booking" class="btn btn-primary nav-cta">Free Inspection</a>
+    </nav>
+    <a href="tel:13175550142" class="nav-phone">(317) 555-0142</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <span class="eyebrow">Get in Touch</span>
+    <h1>Contact Summit Ridge Roofing</h1>
+    <p>Questions, quotes, or scheduling, reach us however's easiest for you.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="grid grid-3">
+      <div class="card text-center">
+        <h3>Call</h3>
+        <p><a href="tel:13175550142" style="color:var(--navy-deep);font-weight:700;">(317) 555-0142</a></p>
+        <p style="margin:0;color:var(--steel);">Mon–Sat, 7am–7pm</p>
+      </div>
+      <div class="card text-center">
+        <h3>Email</h3>
+        <p><a href="mailto:hello@summitridgeroofing.com" style="color:var(--navy-deep);font-weight:700;">hello@summitridgeroofing.com</a></p>
+        <p style="margin:0;color:var(--steel);">We reply within one business day</p>
+      </div>
+      <div class="card text-center">
+        <h3>Service Area</h3>
+        <p style="font-weight:700;">Indianapolis &amp; Marion County</p>
+        <p style="margin:0;color:var(--steel);">Fishers · Carmel · Noblesville · Greenwood · Avon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="shingle-divider on-tint"></div>
+<section class="section-tint" id="booking">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Schedule Now</span>
+      <h2>Request a Free Roof Inspection</h2>
+      <p>Fill out the form and we'll call to confirm a time, usually within one business day.</p>
+    </div>
+    <div class="booking-module">
+      <div class="booking-side">
+        <span class="eyebrow">What to Expect</span>
+        <h3>A 21-Point Inspection</h3>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9L7 13L15 5" stroke="currentColor" stroke-width="1.8"/></svg> Photo documentation of every finding</li>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9L7 13L15 5" stroke="currentColor" stroke-width="1.8"/></svg> Written estimate within 24 hours</li>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9L7 13L15 5" stroke="currentColor" stroke-width="1.8"/></svg> Insurance documentation if storm-related</li>
+          <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9L7 13L15 5" stroke="currentColor" stroke-width="1.8"/></svg> No pressure, no obligation</li>
+        </ul>
+      </div>
+      <!-- BEGIN: booking-embed-slot — replace inner contents with SaaS widget embed -->
+      <div class="booking-embed-slot">
+        <form class="booking-form" name="inspection-request-contact" method="POST" data-netlify="true" data-netlify-ajax data-success-target="#contact-form-success">
+          <input type="hidden" name="form-name" value="inspection-request-contact">
+          <div class="form-row">
+            <div class="field"><label for="cn">Full name</label><input id="cn" name="name" type="text" required></div>
+            <div class="field"><label for="cp">Phone</label><input id="cp" name="phone" type="tel" required></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="ce">Email</label><input id="ce" name="email" type="email"></div>
+            <div class="field"><label for="ca">Property address</label><input id="ca" name="address" type="text" required></div>
+          </div>
+          <div class="field">
+            <label for="cs">What do you need?</label>
+            <select id="cs" name="service">
+              <option>Free Roof Inspection</option>
+              <option>Storm Damage / Insurance Claim</option>
+              <option>Roof Repair</option>
+              <option>Roof Replacement Estimate</option>
+              <option>Gutters &amp; Ventilation</option>
+              <option>Commercial Roofing</option>
+            </select>
+          </div>
+          <div class="field"><label for="cm">Anything else we should know?</label><textarea id="cm" name="message" rows="3"></textarea></div>
+          <button type="submit" class="btn btn-primary">Request My Inspection</button>
+          <p class="form-note">We reply within one business day. For active leaks, call us directly at (317) 555-0142.</p>
+        </form>
+        <div class="form-success" id="contact-form-success">Request received. We'll call within one business day to schedule your inspection.</div>
+      </div>
+      <!-- END: booking-embed-slot -->
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Summit Ridge Roofing</div>
+        <p style="margin-top:12px;max-width:280px;">Licensed, insured, and locally owned. Serving Indianapolis and Marion County homeowners since 2012.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="roof-replacement.html">Roof Replacement</a></li>
+          <li><a href="roof-repair.html">Roof Repair</a></li>
+          <li><a href="storm-damage.html">Storm Damage</a></li>
+          <li><a href="gutters-ventilation.html">Gutters</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:13175550142">(317) 555-0142</a></li>
+          <li><a href="mailto:hello@summitridgeroofing.com">hello@summitridgeroofing.com</a></li>
+          <li>Indianapolis, IN</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Summit Ridge Roofing. Mockup for portfolio purposes.</span>
+      <span>Licensed &amp; Insured · IN Roofing License #00000</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
